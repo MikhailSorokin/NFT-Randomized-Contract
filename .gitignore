@@ -1,0 +1,9 @@
+cache/
+node_modules/
+.vscode/
+artifacts/
+bin/
+build/
+.env
+
+scripts/pinata
