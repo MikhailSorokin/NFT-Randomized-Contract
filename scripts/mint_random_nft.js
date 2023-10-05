@@ -11,7 +11,7 @@ const CONTRACT_ADDRESS = process.env.RANDOM_NFT
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(SEPOLIA_API_URL)
 
-const contract = require("../artifacts/contracts/RandomCDFoundersNFT.sol/RandomCDFoundersNFT.json")
+const contract = require("../artifacts/contracts/RandomFoundersNFT.sol/RandomFoundersNFT.json")
 const randomMintContract = new web3.eth.Contract(contract.abi, CONTRACT_ADDRESS, {
   from: PUBLIC_KEY
 });
